@@ -29,11 +29,11 @@ jobs:
       - name: Lint
         run: npm run lint
 
-      - name: Test
-        run: npm run coverage
-
       - name: Compile
         run: npm run build
+
+      - name: Test
+        run: npm run coverage
 
       - name: Coveralls
         uses: coverallsapp/github-action@master
