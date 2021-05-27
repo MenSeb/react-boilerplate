@@ -43,6 +43,8 @@ npm i @menseb/react-boilerplate
 
 ## How it works
 
+How it works text.
+
 ## How to use
 
 ## PropTypes
