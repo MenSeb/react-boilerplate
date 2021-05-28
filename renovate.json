@@ -1,5 +1,21 @@
 {
-  "extends": [
-    "config:base"
-  ]
+    "extends": [
+        "config:base"
+    ],
+    "packageRules": [
+        {
+            "assignees": "MenSeb",
+            "automerge": true,
+            "matchDepTypes": [
+                "devDependencies"
+            ],
+            "matchUpdateTypes": [
+                "digest",
+                "minor",
+                "patch",
+                "pin"
+            ],
+            "schedule": ["after 16pm and before 5am every weekday"]
+        }
+    ]
 }
