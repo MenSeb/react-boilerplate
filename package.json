@@ -8,7 +8,7 @@
         "dist"
     ],
     "scripts": {
-        "build": "rm -rf ./dist && webpack --config webpack.prod.js",
+        "build": "rimraf dist && webpack --config webpack.prod.js",
         "clean": "rimraf dist node_modules",
         "coverage": "jest --coverage",
         "demo": "webpack --config webpack.dev.js",
