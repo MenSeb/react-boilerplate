@@ -10,7 +10,7 @@
     "scripts": {
         "build": "rimraf dist && webpack --config webpack.prod.js",
         "clean": "git clean -fXd -e !node_modules -e !node_modules/**/*",
-        "commit": "commit",
+        "commit": "cz",
         "coverage": "jest --coverage",
         "demo": "webpack --config webpack.dev.js",
         "deploy": "gh-pages -d demo",
