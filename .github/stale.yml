@@ -25,10 +25,11 @@ issues:
   closeComment: >
     Closing this issue after a prolonged period of inactivity. Please create a new issue with up-to-date information if needed. Thank you.
   # Label to use when marking as stale
-  staleLabel: 'github(issue): stale'
+  staleLabel: 'stale(issue): inactive'
 
 pulls:
-  markComment:
+  # Comment to post when marking as stale. Set to `false` to disable
+  markComment: >
     This pull request has been automatically marked as stale because it has not had
     recent activity. It will be closed if no further activity occurs. Thank you
     for your contributions.
@@ -36,4 +37,4 @@ pulls:
   closeComment: >
     Closing this pull request after a prolonged period of inactivity. Please ask for this pull request to be reopened if needed. Thank you.
   # Label to use when marking as stale
-  staleLabel: 'github(pull): stale'
+  staleLabel: 'stale(pull): inactive'
