@@ -4,7 +4,7 @@ const path = require('path');
 
 module.exports = merge(config, {
     devServer: {
-        contentBase: path.resolve(__dirname, 'demo'),
+        static: path.resolve(__dirname, 'demo'),
     },
     devtool: 'inline-source-map',
     entry: path.resolve(__dirname, 'demo/index.js'),
