@@ -4,6 +4,7 @@
     "description": "React boilerplate",
     "main": "dist/index.js",
     "module": "dist/index.js",
+    "type": "module",
     "files": [
         "dist"
     ],
