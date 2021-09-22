@@ -1,8 +1,8 @@
-const config = require('./webpack.config.js');
-const { merge } = require('webpack-merge');
-const path = require('path');
+import path from 'path';
+import { merge } from 'webpack-merge';
+import config, { __dirname } from './webpack.config.js';
 
-module.exports = merge(config, {
+export default merge(config, {
     devtool: 'source-map',
     entry: path.resolve(__dirname, 'src/index.js'),
     externals: {
