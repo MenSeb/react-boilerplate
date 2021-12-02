@@ -73,7 +73,7 @@
         "eslint-plugin-react-hooks": "4.3.0",
         "eslint-plugin-testing-library": "5.0.1",
         "gh-pages": "3.2.3",
-        "jest": "27.4.2",
+        "jest": "27.4.3",
         "node-sass": "6.0.1",
         "prettier": "2.5.0",
         "prop-types": "15.7.2",
