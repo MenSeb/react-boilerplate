@@ -60,7 +60,7 @@
         "babel-plugin-jsx-remove-data-test-id": "3.0.0",
         "commitizen": "4.3.0",
         "coveralls": "3.1.1",
-        "cross-env": "7.0.3",
+        "cross-env": "10.1.0",
         "css-loader": "7.1.1",
         "cz-conventional-changelog": "3.3.0",
         "eslint": "8.57.0",
